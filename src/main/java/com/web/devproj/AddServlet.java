@@ -42,7 +42,7 @@ public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOExce
 		 		+ "</head>\r\n"
 		 		+ "<body>\r\n"
 		 		+ "\r\n"
-		 		+ "<h1>Result is: </h1>\r\n"
+		 		+ "<h1>Your Result is: </h1>\r\n"
 		 		+ "\r\n"
 		 		+ result
 		 		+ "\r\n"
