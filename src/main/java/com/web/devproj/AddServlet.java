@@ -16,6 +16,7 @@ public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOExce
   {
 	PrintWriter out = res.getWriter();
 	res.setContentType("text/html");
+	  //Initialize result to 0
 	  double result = 0;
 	  String i = req.getParameter("source");
 	  String j = req.getParameter("dest");
@@ -42,7 +43,7 @@ public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOExce
 		 		+ "</head>\r\n"
 		 		+ "<body>\r\n"
 		 		+ "\r\n"
-		 		+ "<h1>Prasad your Result in your currency is: </h1>\r\n"
+		 		+ "<h1>Desired Result in your currency is: </h1>\r\n"
 		 		+ "\r\n"
 		 		+ result
 		 		+ "\r\n"
